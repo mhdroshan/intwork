@@ -14,7 +14,18 @@ color: white;
 text-align: center;
         background: #565656;
         height: 100%;
+        
     }
+    body{
+      height: 100vh;
+    }
+
+
+
+    /*  */
+
+
+    
 </style>
 <!-- fonts -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -81,7 +92,7 @@ text-align: center;
       
       <div class="col-sm-8">
         <!-- carousel part -->
-        <div class="owl-carousel owl-loaded owl-drag" style="margin: 5px 0;">
+        <div class="owl-carousel owl-theme owl-loaded owl-drag" style="margin:0;">
       <div class="owl-stage-outer">
               <div class="owl-stage" >
               <div class="owl-item" >
@@ -101,8 +112,10 @@ text-align: center;
           </div>
       </div>
           </div>
-         <!-- <div class="owl-dots"><button role="button" class="owl-dot"><span></span></button><button role="button" class="owl-dot active"><span></span></button><button role="button" class="owl-dot"><span></span></button><button role="button" class="owl-dot"><span></span></button></div> -->
-        </div>
+
+<!-- nav  -->
+
+         </div>
     
       </div>
         
@@ -115,8 +128,8 @@ text-align: center;
     var owl = $('.owl-carousel');
     owl.owlCarousel({
      
-    dots:true,
-    dotsEach:true,
+    
+    
     autoplay:true,
     loop:true,
     margin:10,
