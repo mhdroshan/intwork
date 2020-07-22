@@ -75,3 +75,6 @@ margin: 15px;
     margin: 5px;
     background: white;
 }
+.buttos:focus{
+    outline: none;
+}
