@@ -89,7 +89,7 @@ body{
           color: white;
           transition: 0.1s ease;
           border: none;
-          box-shadow: 0px 2px 8px rgba(0,0,0,0.25), 0px 4px 5px rgba(0,0,0,0.22);
+          box-shadow: none;
           width: 50%;
     text-align: center;
     border: none;
@@ -98,7 +98,7 @@ body{
     margin: 5px;
 }
 .bluebutt:hover{
-    box-shadow: none;
+    box-shadow: 0px 2px 8px rgba(0,0,0,0.25), 0px 4px 5px rgba(0,0,0,0.22);
 }
 .buttos{
     width: 50%;
@@ -162,6 +162,34 @@ body{
 	height: 40px;
 	width: 40px;
 }
+.social{
+    transition: 0.19s ease-in;
+}
+.social-containers a:hover{
+    text-decoration: none;
+}
+.fb:hover{
+    color: white;
+    background-color: #3b5998;
+}
+.gp:hover{
+    color: white;
+    background-color: #db4a39;
+}
+.ln:hover{
+    color: white;
+    background-color: #0e76a8;
+}
+.fb{
+    color: #3b5998;;
+}
+.gp{
+    color: #db4a39;   
+}
+.ln{
+    color: #0e76a8;
+}
+/*  */
 
 .rightactive{
     transform: translateX(-20%);
