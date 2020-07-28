@@ -167,19 +167,19 @@ body{
     transform: translateX(-20%);
     opacity: 0;
     width: 0%;
-    transition: 0.3s ease-in;
+    transition: width 0s, 0.3s ease-in;
 }
 
 .rightactivebak{
     transform: translateX(0%);
     opacity: 1;
     width: 100%;
-    transition: 0.3s ease-in;
+    transition: width 0s, 0.3s ease-in;
 }
 .leftactive{
     transform: translateX(0%);
     opacity: 1;
-    transition: 0.3s ease-in;
+    transition: width 0s, 0.3s ease-in;
     width: 100%;
     z-index: 6;
 }
@@ -187,7 +187,7 @@ body{
 .leftactivebak{
     transform: translateX(20%);
     opacity: 0;
-    transition: 0.3s ease-in;
+    transition: width 0s, 0.3s ease-in;
     z-index: 3;
     width: 0%;
 }
