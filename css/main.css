@@ -120,11 +120,11 @@ body{
 .hiden{
     transform: translateX(50%);
     opacity: 0;
-    width: 100%;
+    width: 0%;
     position: absolute;
     top: 0;
     left: 0;
-    display: none;
+   
     z-index: 3;
 }
 
@@ -149,28 +149,30 @@ body{
 .rightactive{
     transform: translateX(-50%);
     opacity: 0;
-    transition: 0.4s ease;
+    width: 0%;
+    transition:width .2s, 0.3s ease-in;
 }
 
 .rightactivebak{
     transform: translateX(0%);
     opacity: 1;
-    transition: 0.4s ease;
+    width: 100%;
+    transition:width .2s, 0.3s ease-in;
 }
 .leftactive{
     transform: translateX(0%);
     opacity: 1;
-    transition: 0.4s ease;
-    display: block;
+    transition:width .2s, 0.3s ease-in;
+    width: 100%;
     z-index: 6;
 }
 
 .leftactivebak{
     transform: translateX(50%);
     opacity: 0;
-    transition: 0.4s ease;
+    transition:width .2s, 0.3s ease-in;
     z-index: 3;
-    display: none;
+    width: 0%;
 }
 
 .formholder{
