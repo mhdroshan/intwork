@@ -118,14 +118,38 @@ body{
 }
 .signlink{
     display: inline-flex;
+    position: absolute;
     font-size: 14px;
     margin-top: 8px;
+    text-align: center;
+    left: 50%;
+    bottom: 9%;
+    width: 300px;
+    margin-left: -150px
 }
+.opno{
+    opacity: 0;
+    transition: .2s ease;
+    z-index: 100;
+}
+.opyes{
+    opacity: 1;
+    transition: .2s ease;
+    z-index: 200;
+}
+
+.signlink p{
+    margin: 0 auto;
+    margin-right: 0;
+}
+
+
 .signlink button{
     border: none;
     background: transparent;
     padding: 0;
-    
+    margin: 0 auto;
+    margin-left: 0;
     color: #007bff;
     height: fit-content;
 }
