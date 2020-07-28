@@ -113,7 +113,9 @@ body{
 .buttos:focus{
     outline: none;
 }
-
+.bluebutt:focus{
+    outline: none;
+}
 .signlink{
     display: inline-flex;
     font-size: 14px;
