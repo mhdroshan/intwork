@@ -10,25 +10,6 @@
         Sample work
   </title>
  
-<style>
-    .item{
-color: white;
-text-align: center;
-        background: #565656;
-        height: 100%;
-        
-    }
-    body{
-      height: 100vh;
-    }
-
-
-
-    /*  */
-
-
-    
-</style>
 <!-- fonts -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;700;800;900&display=swap" rel="stylesheet">
@@ -36,6 +17,7 @@ text-align: center;
 <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" href="css/owl.carousel.min.css">
   <link rel="stylesheet" href="css/owl.theme.default.min.css">
+  <link rel="stylesheet" href="css/intlTelInput.css">
    <!-- bootstrap class -->
    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
 
@@ -73,7 +55,7 @@ text-align: center;
 </div>
 <div id="si" class="signlink opno">
   <p>Already a member? </p>&nbsp;
-  <button id="signin">Sign in</button>
+  <button  id="signin">Sign in</button>
   
 </div>
 
@@ -85,10 +67,10 @@ text-align: center;
   <form  style="display: grid;" action="" method="">
     <div class="inp-container">
       <i class="fa fa-user-o icon"></i>
-      <input class="details" type="email" name="usernem" id="" placeholder="username"></div>
+      <input class="details" type="email" name="usernem" required id="" placeholder="username"></div>
     <div class="inp-container">
       <i class="fa fa-key icon"></i>
-      <input class="details" type="password" name="password" id="" placeholder="Password"></div>
+      <input class="details" type="password" name="password" required id="" placeholder="Password"></div>
 
       <!-- <div class="inp-container">
         <i class="fa fa-pencil icon"></i>
@@ -98,7 +80,7 @@ text-align: center;
 
       <div class="bholder">
         
-          <input class="bluebutt" type="button" value="Login">
+          <input  class="bluebutt" type="submit" value="Login">
       
       
         
@@ -112,21 +94,33 @@ text-align: center;
 
       <div id="sigforms" class="logform hiden align-items-center justify-content-center">
         <form  style="display: grid;" action="" method="">
+          <div style="display: flex;">
           <div class="inp-container">
             <i class="fa fa-user-o icon"></i>
-            <input class="details" type="email" name="usernem" id="" placeholder="Your name"></div>
+            <input class="details" style="width: 60%;" type="email" name="usernem" required id="" placeholder="First name">
+            
+          </div>
+          <div class="inp-container" style="display: block;">
+            <input class="details" type="email" name="usernem" required id="" placeholder="Last name">
+          </div>
+        </div>
           <div class="inp-container">
             <i class="fa fa-envelope-o icon"></i>
-            <input class="details" type="email" name="usernem" id="" placeholder="email"></div>
+            <input class="details" type="email" name="email" required id="" placeholder="email"></div>
+
+            <div class="inp-container">
+              <i class="fa fa-phone icon"></i>
+              <input class="details" style="height: 100%;" type="tel" name="phone" required id="phone" placeholder="Phone number"></div>
+
           <div class="inp-container">
             <i class="fa fa-key icon"></i>
-            <input class="details" type="password" name="password" id="" placeholder="Password"></div>
+            <input class="details" type="password" name="password" required id="" placeholder="Password"></div>
       
             
       
             <div class="bholder2">
               
-                <input class="bluebutt" type="button" value="Signup">
+                <input class="bluebutt" type="submit" value="Sign up">
                 
               </div>
               </form>
@@ -180,8 +174,14 @@ text-align: center;
  <script src="js/owl.carousel.min.js"></script>
  <script src="js/owl.carousel.js"></script>
  <script src="js/app.js"></script>
+ <script src="js/intlTelInput.js"></script>
 
-
+ <script>
+  var input = document.querySelector("#phone");
+  window.intlTelInput(input, {
+    utilsScript: "js/utils.js",
+    });
+  </script>
 
   <script>
         
