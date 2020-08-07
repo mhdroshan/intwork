@@ -20,11 +20,14 @@ body{
     box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 }
 .profile{
-    border-radius: 50px;
+   
     height: 100px;
-    width: 100px;
+    width: 115px;
+    background: url(../src/logo/Logo_Png.png);
     background-position: center;
-    background-size: cover;
+    background-size: 100%;
+    background-repeat:no-repeat;
+
     margin: auto;
     
 }
