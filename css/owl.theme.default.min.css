@@ -44,7 +44,7 @@ right: 12px;
  width:7px;
  height:7px;
  margin:5px 7px;
- background:#ffffff;
+ background:grey;
  display:block;
  -webkit-backface-visibility:visible;
  transition:opacity .2s ease;
