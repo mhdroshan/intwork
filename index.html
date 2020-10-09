@@ -1,231 +1,201 @@
 <html lang="en">
-  <head>
-    <!-- head -->
+
+<head>
+  <!-- head -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  
+
   <title>
-        Sample work
+    Sample work
   </title>
 
   <!-- favicons -->
   <link rel="apple-touch-icon" sizes="180x180" href="./src/logo/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="/src/logo/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="./src/logo/favicon-16x16.png">
-<link rel="manifest" href="./src/logo/site.webmanifest">
-<link rel="mask-icon" href="./src/logo/safari-pinned-tab.svg" color="#5bbad5">
-<meta name="msapplication-TileColor" content="#da532c">
-<meta name="theme-color" content="#ffffff">
-<link rel="icon" href="./src/logo/favicon.ico" type="image/x-icon">
- 
-<!-- fonts -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;700;800;900&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="/src/logo/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./src/logo/favicon-16x16.png">
+  <link rel="manifest" href="./src/logo/site.webmanifest">
+  <link rel="mask-icon" href="./src/logo/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+  <link rel="icon" href="./src/logo/favicon.ico" type="image/x-icon">
+
+  <!-- fonts -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;700;800;900&display=swap"
+    rel="stylesheet">
   <!-- css -->
-<link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" href="css/owl.carousel.min.css">
   <link rel="stylesheet" href="css/owl.theme.default.min.css">
   <link rel="stylesheet" href="css/intlTelInput.css">
-   <!-- bootstrap class -->
-   <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+  <!-- bootstrap class -->
+  <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
 
 
-  
+
   <!-- bootstrap -->
   <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous"> -->
-  
+
 </head>
+
 <body style="font-family:'Montserrat', sans-serif">
 
- 
+
   <div class="container-fluid">
     <div class="row" style="height: 100%;">
       <div class="col-md-4 my-auto">
         <!-- login part -->
-<div class="loghead">
-  <div>
- <div style="margin-bottom: 35px;">
-<div class="profile" ></div>
-<div class="logdet">Marketing service</div>
+        <div class="loghead">
+          <div>
+            <div style="margin-bottom: 35px;">
+              <div class="profile"></div>
+              <div class="logdet">Marketing service</div>
 
-</div>
-<div class="social-containers">
-  <a href="#" class="social fb"><i class="fa fa-facebook "></i></a>
-  <a href="#" class="social gp"><i class="fa fa-google-plus "></i></a>
-  <a href="#" class="social ln"><i class="fa fa-linkedin "></i></a>
-</div>
-<!-- mmen -->
-<div id="cr" class="signlink opyes">
-  <p>First time here? </p>&nbsp;
-  <button id="signup">Create account</button>
-  
-</div>
-<div id="si" class="signlink opno">
-  <p>Already a member? </p>&nbsp;
-  <button  id="signin">Sign in</button>
-  
-</div>
+            </div>
+            <div class="social-containers">
+              <a href="#" class="social fb"><i class="fa fa-facebook "></i></a>
+              <a href="#" class="social gp"><i class="fa fa-google-plus "></i></a>
+              <a href="#" class="social ln"><i class="fa fa-linkedin "></i></a>
+            </div>
+            <!-- mmen -->
+            <div id="cr" class="signinlink opened">
+              <p>First time here? </p>&nbsp;
+              <button id="signup">Create account</button>
 
-<!-- login form -->
+            </div>
+            <div id="si" class="signinlink closed">
+              <p>Already a member? </p>&nbsp;
+              <button id="signinlink">Sign in</button>
 
-<div class="formholder">
-  
-<div id="logforms" class="logform align-items-center justify-content-center">
-  <form  style="display: grid;" action="" method="">
-    <div class="inp-container">
-      <i class="fa fa-user-o icon"></i>
-      <input class="details" type="text" name="usernem" required id="" placeholder="username"></div>
-    <div class="inp-container">
-      <i class="fa fa-key icon"></i>
-      <input class="details" type="password" name="password" required id="" placeholder="Password">
-      </div>
+            </div>
 
-      <!-- <div class="inp-container">
+            <!-- login form -->
+
+            <div class="formholder">
+
+              <div id="logforms" class="logform align-items-center justify-content-center">
+                <form style="display: grid;" action="" method="">
+                  <div class="inp-container">
+                    <i class="fa fa-user-o icon"></i>
+                    <input class="details" type="text" required id="" placeholder="username"></div>
+                  <div class="inp-container">
+                    <i class="fa fa-key icon"></i>
+                    <input class="details" type="password" required id="" placeholder="Password">
+                  </div>
+
+                  <!-- <div class="inp-container">
         <i class="fa fa-pencil icon"></i>
         <input class="details" type="text" name="varify" id="" placeholder="Verification code">
         <div class="verify">H7H9G</div>
       </div> -->
 
-      <div class="bholder">
-        
-          <input  class="bluebutt" type="submit" value="Login">
-      
-      
-        
-          <input class="buttos" style="color:#8a8787;background: inherit;" type="button"  value="forget password?">
-        </div>
-        </form>
-        
+                  <div class="bholder">
 
-      </div>
-      <!-- signup form -->
+                    <input class="submitButton" type="submit" value="Login">
 
-      <div id="sigforms" class="logform hiden align-items-center justify-content-center">
-        <form  style="display: grid;" action="" method="">
-          <div style="display: flex;">
-          <div style="width: 50%;" class="inp-container">
-            <i class="fa fa-user-o icon"></i>
-            <input class="details" style="width: 60%;" type="text" name="usernem" required id="" placeholder="First name">
-            
-          </div>
-          <div class="inp-container" style="display: block;margin-left: 2px;width: 50%;">
-            <input class="details" type="text" name="usernem" required id="" placeholder="Last name">
-          </div>
-        </div>
-          <div class="inp-container">
-            <i class="fa fa-envelope-o icon"></i>
-            <input class="details" type="email" name="email" required id="" placeholder="email"></div>
 
-            <div class="inp-container">
-              <i class="fa fa-phone icon"></i>
-              <input class="details" style="height: 100%;" type="tel" name="phone" required id="phone" placeholder="Phone number"></div>
 
-          <div class="inp-container">
-            <i class="fa fa-key icon"></i>
-            <input class="details" type="password" name="password" required id="" placeholder="Password">
-           
-          </div>
-      
-            
-      
-            <div class="bholder2">
-              
-                <input class="bluebutt" type="submit" value="Sign up">
-                
+                    <input class="forgetPassword" style="color:#8a8787;background: inherit;" type="button"
+                      value="forget password?">
+                  </div>
+                </form>
+
+
               </div>
-              </form>
-              
-      
+              <!-- signup form -->
+
+              <div id="sigforms" class="logform hiden align-items-center justify-content-center">
+                <form style="display: grid;" action="" method="">
+                  <div style="display: flex;">
+                    <div style="width: 50%;" class="inp-container">
+                      <i class="fa fa-user-o icon"></i>
+                      <input class="details" style="width: 60%;" type="text" required id="" placeholder="First name">
+
+                    </div>
+                    <div class="inp-container" style="display: block;margin-left: 2px;width: 50%;">
+                      <input class="details" type="text" required id="" placeholder="Last name">
+                    </div>
+                  </div>
+                  <div class="inp-container">
+                    <i class="fa fa-envelope-o icon"></i>
+                    <input class="details" type="email" required id="" placeholder="email"></div>
+
+                  <div class="inp-container">
+                    <i class="fa fa-phone icon"></i>
+                    <input class="details" style="height: 100%;" type="tel" required id="phone"
+                      placeholder="Phone number"></div>
+
+                  <div class="inp-container">
+                    <i class="fa fa-key icon"></i>
+                    <input class="details" type="password" required id="" placeholder="Password">
+
+                  </div>
+
+
+
+                  <div class="bholder2">
+
+                    <input class="submitButton" type="submit" value="Sign up">
+
+                  </div>
+                </form>
+
+
+              </div>
+
             </div>
-            
+
+
           </div>
+          <hr style="margin: 0;" />
+        </div>
+      </div>
 
-      
-</div>
-<hr style="margin: 0;"/>
-</div>
-      </div>      
 
-      
       <div class="col-md-8" style="padding: 0;">
         <!-- carousel part -->
         <div class="owl-carousel owl-theme owl-loaded owl-drag" style="margin:0;">
-      <div class="owl-stage-outer">
-              <div class="owl-stage" >
-              <div class="owl-item" >
-                  <div class="item" style="background-image: url(./src/wall1.webp);">
-              <h2>First</h2>
+          <div class="owl-stage-outer">
+            <div class="owl-stage">
+              <div class="owl-item">
+                <div class="item" style="background-image: url(./src/wall1.webp);">
+                  <h2>First</h2>
+                </div>
+              </div>
+              <div class="owl-item">
+                <div class="item" style="background-image: url(./src/wall2.webp);">
+                  <h2>Second</h2>
+                </div>
+              </div>
+              <div class="owl-item">
+                <div class="item" style="background-image: url(./src/wall3.webp);">
+                  <h2>Third</h2>
+                </div>
+              </div>
             </div>
           </div>
-          <div class="owl-item" >
-              <div class="item" style="background-image: url(./src/wall2.webp);">
-              <h2>Second</h2>
-            </div>
-          </div>
-          <div class="owl-item" >
-              <div class="item" style="background-image: url(./src/wall3.webp);">
-              <h2>Third</h2>
-            </div>
-          </div>
-      </div>
-          </div>
 
-<!-- nav  -->
+          <!-- nav  -->
 
-         </div>
-    
-      </div>
-        
+        </div>
 
       </div>
-    
+
+
+    </div>
+
   </div>
   <!-- javascript -->
-   
+
   <script src="bootstrap/js/bootstrap.min.js"></script>
   <script src="js/jquery.min.js"></script>
- <script src="js/owl.carousel.min.js"></script>
- <script src="js/owl.carousel.js"></script>
- <script src="js/app.js"></script>
- <script src="js/intlTelInput.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/owl.carousel.js"></script>
+  <script src="js/app.js"></script>
+  <script src="js/intlTelInput.js"></script>
 
- <script>
-  var input = document.querySelector("#phone");
-  window.intlTelInput(input, {
-    utilsScript: "js/utils.js",
-    });
-  </script>
 
-  <script>
-        
-    var owl = $('.owl-carousel');
-    owl.owlCarousel({
-     
-    
-    
-    autoplay:true,
-    loop:true,
-    margin:10,
-    width:100,
-    touchDrag:true,
-    
-    responsive:{
-        0:{
-            items:1
-        },
-        600:{
-            items:1
-        },
-        1000:{
-            items:1
-        }
-    }
-});
-  
-   </script>
-  
 
-</body></html>
+</body>
 
-    
-
+</html>

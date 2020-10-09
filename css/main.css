@@ -102,7 +102,7 @@ body{
     padding: 8px;
 }
 
-.bluebutt{
+.submitButton{
     background: #007bff;
           color: white;
           transition: 0.1s ease;
@@ -115,14 +115,14 @@ body{
     border-radius: 28px;
     margin: 5px;
 }
-.bluebutt:hover{
+.submitButton:hover{
     box-shadow: 0px 2px 8px rgba(0,0,0,0.25), 0px 4px 5px rgba(0,0,0,0.22);
 }
-.bluebutt:focus{
+.submitButton:focus{
     box-shadow: none;
 }
 
-.buttos{
+.forgetPassword{
     width: 50%;
     text-align: center;
     
@@ -132,13 +132,13 @@ body{
     margin: 5px;
     background: white;
 }
-.buttos:focus{
+.forgetPassword:focus{
     outline: none;
 }
-.bluebutt:focus{
+.submitButton:focus{
     outline: none;
 }
-.signlink{
+.signinlink{
     display: inline-flex;
     position: absolute;
     font-size: 14px;
@@ -149,24 +149,24 @@ body{
     width: 300px;
     margin-left: -150px
 }
-.opno{
+.closed{
     opacity: 0;
     transition: .2s ease;
     z-index: 5;
 }
-.opyes{
+.opened{
     opacity: 1;
     transition: .2s ease;
     z-index: 6;
 }
 
-.signlink p{
+.signinlink p{
     margin: 0 auto;
     margin-right: 0;
 }
 
 
-.signlink button{
+.signinlink button{
     border: none;
     background: transparent;
     padding: 0;
@@ -175,7 +175,7 @@ body{
     color: #007bff;
     height: fit-content;
 }
-.signlink button:focus{
+.signinlink button:focus{
     outline: none;
 }
 
